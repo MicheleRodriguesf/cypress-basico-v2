@@ -11,5 +11,4 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v3
         with:
-          command: npx cypress run
-          browser: chrome
+          command: npm test
